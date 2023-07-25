@@ -4,7 +4,7 @@ from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
 from langchain.agents.agent_types import AgentType
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 agent = create_excel_agent(
     OpenAI(temperature=0),
